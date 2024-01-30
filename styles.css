@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(241, 247, 253);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 6%;
+  gap: 5%;
+}
+.right {
+  width: 100%;
+}
+.right img {
+  width: 100%;
+  border-radius: 1%;
+}
+.filter {
+  filter: blur(5px) brightness(0.7);
+}
+.left {
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+  width: 25rem;
+  font-weight: 800;
+  line-height: 3rem;
+  margin-bottom: 10px;
+  color: rgb(16, 24, 40);
+}
+p {
+  font-size: 1.1rem;
+  color: rgb(71, 84, 103);
+  margin-bottom: 30px;
+}
+.row img {
+  width: 80px;
+  margin-right: 5px;
+  /* filter: blur(3px); */
+}
+.row {
+  margin-bottom: 10px;
+}
+.git {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(30, 41, 59);
+  background-color: transparent;
+  border: 2px solid rgb(203, 213, 225);
+  border-radius: 5px;
+}
+.download {
+  margin-left: 10px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(241, 247, 253);
+  background-color: rgb(11, 129, 159);
+  border: none;
+  border-radius: 5px;
+}
